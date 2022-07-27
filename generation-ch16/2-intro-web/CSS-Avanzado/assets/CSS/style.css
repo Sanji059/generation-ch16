@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Comic+Neue&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Mochiy+Pop+One&display=swap');
+h1{
+    font-family: 'Comic Neue', cursive;
+}
+p{
+    font-family: 'Atomic Age', cursive;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+}

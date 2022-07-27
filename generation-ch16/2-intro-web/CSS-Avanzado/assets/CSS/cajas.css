@@ -1,0 +1,38 @@
+.cuadro{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 20px 40px ;
+    padding: 50px 40px 30px 20px;
+    border: 10px solid yellow;
+
+}
+.el-1{
+    background-color: green;
+   /* position: fixed;*/
+   position: static;
+}
+.el-2{
+    /*background-color: red;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;*/
+    position: sticky;
+    top: 0;
+}
+.el-3{
+    background-color: burlywood;
+    /*position: relative;
+    bottom: 200px;
+    left: 200px;*/
+    position: static;
+
+}
+.el-4{
+    background-color: cornflowerblue;
+    position: static;
+}
+.el-5{
+    background-color: darkorange;
+    position: static;
+}

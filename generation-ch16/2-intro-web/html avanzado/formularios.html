@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form>
+        <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Nombre" name="nombre" id="nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@correo.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div class="campo">
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </div>
+        
+        <div class="campo">
+            <label for="number">Numero </label>
+            <input type="number" name="number" id="number" min="0" max="50" step="4">
+        </div>
+
+
+        <div class="campo">
+            <label for="range">Numero </label>
+            <input type="range" name="range" id="range" min="10" max="20" step="2">
+        </div>
+
+        <div class="campo">
+            <label for="fecha">Fecha </label>
+            <input type="date" name="fecha" id="fecha"> 
+        </div>
+        <div class="campo">
+            <label for="archivo">Archivo </label>
+            <input type="file" name="archivo" id="archivo"> 
+        </div>
+        
+        <div class="campo">
+            <label for="radio">Radio </label>
+            <input type="radio" name="radio" id="radio" value="option1"> 
+        </div>
+
+        <div class="campo">
+            <label for="checkbox">Checkbox </label>
+            <input type="checkbox" name="checkbox" id="checkbox" value="option2"> 
+        </div>
+
+
+
+        <div class="submit">
+            <input type="submit" value="Enviar">
+        </div>
+        <div class="reset">
+            <input type="reset" value="Limpiar">
+        </div>
+        
+    </form>
+    <h3>Input de rango con marcas</h3>
+    <input type="range" list="tickmarks" max="20" min="0">
+
+    <datalist id="tickmarks">
+        <option value="0" label="0"> <label for="5"></label>
+        <option value="5" label="5">
+        <option value="10" label="10">
+    </datalist>
+</body>
+</html>
