@@ -1,0 +1,36 @@
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style: decimal;
+}
+
+/* .sub{
+    border: 3px dotted red;
+}*/
+
+h1{ 
+    background-color: blue;
+    width: fit-content;
+}
+
+div{
+    background-color: aqua;
+    /*width: 200px;
+    height: 200px;*/
+}
+
+a{
+    display: inline-block;
+    background-color: chartreuse;
+    width: 200px;
+    height: 400px;
+    border: 1px solid red;
+}
+span{
+    font-size: large;
+    font-family: cursive ;
+    font-weight: 700;
+    border: 1px dashed blue;
+}
