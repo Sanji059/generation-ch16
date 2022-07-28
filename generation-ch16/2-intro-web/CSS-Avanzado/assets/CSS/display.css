@@ -1,0 +1,64 @@
+.cuadro-padre{
+    background-color: coral;    
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cuadro{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 20px 40px ;
+    padding: 50px 40px 30px 20px;
+    border: 10px solid yellow;
+}
+
+.el-1{
+    background-color: green;
+    align-self:flex-start;
+    flex-grow: 1;
+    
+}
+
+.el-2{
+    background-color: grey;
+
+}
+
+.el-3{
+    background-color: burlywood;
+    align-self: flex-end;
+
+}
+
+.el-4{
+    background-color: cornflowerblue;
+
+}
+
+.el-5{
+    background-color: darkorange;
+}
+
+
+
+/*--------------- Introduccion a Bootstrap -------------*/
+.contenedor{
+    height: 200px;
+    background-color: #80cccc;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.fila{
+    display: flex ;
+
+}
+
+.columna{
+    flex-grow: 1;
+}
