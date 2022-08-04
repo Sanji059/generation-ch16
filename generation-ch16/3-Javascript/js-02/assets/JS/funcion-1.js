@@ -29,4 +29,5 @@ miNombre("Oscar ", 'Avila ', 'Gonzalez')
 function miDivision(a,b) {
     return (a/b)
 }
-console.log( "El resultado es: " +miDivision(10,2));
+miDivision(10,2);
+console.log( "El resultado es: " + miDivision);
