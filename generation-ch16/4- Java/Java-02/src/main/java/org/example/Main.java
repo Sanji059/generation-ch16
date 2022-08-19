@@ -45,13 +45,14 @@ public class Main {
         System.out.println("Long valor minimo: " + Long.MIN_VALUE);
 
         byte valorByte = 27;
-        System.out.println("Byte = " + valorBoolean);
+        System.out.println("Byte = " + valorByte);
         System.out.println("Byte corresponde en bytes: " + Byte.BYTES);
         System.out.println("Byte corresponde en bits: " + Byte.SIZE);
         System.out.println("Byte valor maximo: " + Byte.MAX_VALUE);
         System.out.println("Byte valor minimo: " + Byte.MIN_VALUE);
+
         short valorShort = 6556;
-        System.out.println("Short = " + espacio);
+        System.out.println("Short = " + valorShort);
         System.out.println("Short corresponde en bytes: " + Short.BYTES);
         System.out.println("Short corresponde en bits: " + Short.SIZE);
         System.out.println("Short valor maximo: " + Short.MAX_VALUE);
