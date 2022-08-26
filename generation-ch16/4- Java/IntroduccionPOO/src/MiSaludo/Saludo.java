@@ -1,10 +1,13 @@
+package MiSaludo;
+
 public class Saludo {
 
     String textoS = "Hola Mundo Java POO";
-    void saludar(){
+    int a = 3;
+    public void saludar(){
         System.out.println("Hola Java POO");
     }
-    String saludar0(){
+    public String saludar0(){
 
         return textoS;
 
