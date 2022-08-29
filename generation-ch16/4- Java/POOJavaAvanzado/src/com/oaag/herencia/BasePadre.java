@@ -1,7 +1,7 @@
 package com.oaag.herencia;
 
 public class BasePadre {
-        private int a;
+        protected int a;
         private double b;
         private String c;
 

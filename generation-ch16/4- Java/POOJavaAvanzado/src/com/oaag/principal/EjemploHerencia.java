@@ -19,6 +19,7 @@ public class EjemploHerencia {
 
 
 
-        System.out.println("Atributo de Clase BasePadre -> " + h.getA());
+        System.out.println("Atributo de Clase BasePadre -> " + obj.getA());
+       // System.out.println("Atributo de clase Hijo -> " +);
     }
 }
