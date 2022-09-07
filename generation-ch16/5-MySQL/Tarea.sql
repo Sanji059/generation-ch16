@@ -20,6 +20,8 @@ VALUES ('Oscar', 'Avila', 7,'Tianguistenco','akan'),
 
 SELECT * FROM cohorte_16;
 
+DROP TABLE cohorte_16;
+
 DELETE FROM cohorte_16 WHERE alumno_id = 3;
 
 UPDATE  cohorte_16 
